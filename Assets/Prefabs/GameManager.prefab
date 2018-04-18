@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1911719893985644}
+  m_IsPrefabParent: 1
+--- !u!1 &1911719893985644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4843460985443434}
+  - component: {fileID: 114969714571729498}
+  - component: {fileID: 114980788822359096}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4843460985443434
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911719893985644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.9367332, y: 3.081443, z: 0.0047653667}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114969714571729498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911719893985644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbaf8ba03e3a1654b986b1832ad6bcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 100
+  rows: 100
+  numRooms:
+    m_Min: 15
+    m_Max: 20
+  roomWidth:
+    m_Min: 3
+    m_Max: 10
+  roomHeight:
+    m_Min: 3
+    m_Max: 10
+  corridorLength:
+    m_Min: 6
+    m_Max: 10
+  floorTiles:
+  - {fileID: 1858123188179796, guid: caf12cef1373ec744891b92608c335eb, type: 2}
+  wallTiles:
+  - {fileID: 1881371687072578, guid: 2c7c341829974a246bf3d9228f8e83bc, type: 2}
+  outerWallTiles:
+  - {fileID: 1849670246060820, guid: aa8dcb494b86bdb4abc9e0baa8b0a1f4, type: 2}
+  apple: {fileID: 1457120461533520, guid: 4b16d3dcd75ecf5408b68e75f0ca7207, type: 2}
+  potion: {fileID: 1822686911144902, guid: 02811b0eed4f3fb479945b9f76791bb5, type: 2}
+  player: {fileID: 1061766820860266, guid: 515ad931d6ca3984cbe29c1184c180ca, type: 2}
+--- !u!114 &114980788822359096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911719893985644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d696a4015def144c9789bb2df3ecfe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelStartDelay: 2
+  turnDelay: 0.1
+  boardScript: {fileID: 0}
+  playerFoodPoints: 100
+  playerHealth: 50
+  playersTurn: 1
