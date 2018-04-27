@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MovingObject {
 
     public int playerDamage;
+    public int enemyHealth;
     public AudioClip enemyAttack1;
     public AudioClip enemyAttack2;
 
@@ -30,6 +31,21 @@ public class Enemy : MovingObject {
         base.AttemptMove<T>(xDir , yDir);
     }
 
+    public void LoseHealth(int damage)
+    {
+        enemyHealth -= damage;
+        CheckIfDead();
+    }
+
+    private void CheckIfDead()
+    {
+        if(enemyHealth <= 0) {
+            animator.SetTrigger("EnemyDeath");
+            GameManager.instance.RemoveEnemyFromList(gameObject.GetComponent<Enemy>());
+            gameObject.SetActive(false);
+        }
+    }
+
     public void MoveEnemy()
     {
         int xDir = 0;
@@ -40,15 +56,15 @@ public class Enemy : MovingObject {
         else
             xDir = target.position.x > transform.position.x ? 1 : -1;
 
-        AttemptMove<Player>(xDir , yDir);
+        AttemptMove<PlayerPlayer>(xDir , yDir);
     }
 
     protected override void OnCantMove<T>(T component)
     {
-        Player hitPlayer = component as Player;
+        PlayerPlayer hitPlayer = component as PlayerPlayer;
 
         animator.SetTrigger("EnemyAttack");
-        SoundManager.instance.RandomizeSfx(enemyAttack1 , enemyAttack2);
-        hitPlayer.LoseFood(playerDamage);
+        //SoundManager.instance.RandomizeSfx(enemyAttack1 , enemyAttack2);
+        hitPlayer.LoseHealth(playerDamage);
     }
 }

@@ -27,6 +27,7 @@ public abstract class MovingObject : MonoBehaviour {
         boxCollider.enabled = true;
 
         if(hit.transform == null) {
+            //transform.position = Vector3.MoveTowards(transform.position , end , moveTime * Time.deltaTime);
             StartCoroutine(SmoothMovement(end));
             return true;
         }
@@ -45,6 +46,7 @@ public abstract class MovingObject : MonoBehaviour {
             yield return null;
         }
     }
+
     protected virtual void AttemptMove <T> (int xDir , int yDir)
         where T : Component
     {

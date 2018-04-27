@@ -55,26 +55,38 @@ MonoBehaviour:
   columns: 100
   rows: 100
   numRooms:
-    m_Min: 15
-    m_Max: 20
+    m_Min: 5
+    m_Max: 5
   roomWidth:
-    m_Min: 3
-    m_Max: 10
+    m_Min: 20
+    m_Max: 20
   roomHeight:
-    m_Min: 3
-    m_Max: 10
+    m_Min: 4
+    m_Max: 4
   corridorLength:
-    m_Min: 6
-    m_Max: 10
+    m_Min: 4
+    m_Max: 4
   floorTiles:
-  - {fileID: 1858123188179796, guid: caf12cef1373ec744891b92608c335eb, type: 2}
+  - {fileID: 1259266632893548, guid: 71b8dd702f201e44ca4e5101c730f232, type: 2}
+  - {fileID: 1809782552448684, guid: 3c23cbd65fe0cb9468d1c4d2f41a4679, type: 2}
   wallTiles:
-  - {fileID: 1881371687072578, guid: 2c7c341829974a246bf3d9228f8e83bc, type: 2}
+  - {fileID: 1433939017404816, guid: 627f71b2ef3877641b145686347dae71, type: 2}
   outerWallTiles:
-  - {fileID: 1849670246060820, guid: aa8dcb494b86bdb4abc9e0baa8b0a1f4, type: 2}
-  apple: {fileID: 1457120461533520, guid: 4b16d3dcd75ecf5408b68e75f0ca7207, type: 2}
-  potion: {fileID: 1822686911144902, guid: 02811b0eed4f3fb479945b9f76791bb5, type: 2}
-  player: {fileID: 1061766820860266, guid: 515ad931d6ca3984cbe29c1184c180ca, type: 2}
+  - {fileID: 1433939017404816, guid: 627f71b2ef3877641b145686347dae71, type: 2}
+  foodTiles:
+  - {fileID: 1522360095341092, guid: 6663bc8e46a19ca489a97d42c0da5d2e, type: 2}
+  - {fileID: 1549127472077618, guid: 5829f3d439c538d40bff3b800c78a955, type: 2}
+  - {fileID: 1163971304999502, guid: 346508676df7ef7479e64fc18ab4f003, type: 2}
+  enemyTiles:
+  - {fileID: 1843464947453456, guid: 43affdab2cdf87a4a9a3d2adbdf8d974, type: 2}
+  - {fileID: 1568128874281724, guid: 6cc191a5b07099e4487908c70c1455c9, type: 2}
+  - {fileID: 1459856397173862, guid: 7a7fda13ce4a6494092805f666218e6f, type: 2}
+  exitTiles:
+  - {fileID: 1399286793996478, guid: 1315e948091d76549b7b649e8310fc6b, type: 2}
+  numFood:
+    m_Min: 10
+    m_Max: 20
+  player: {fileID: 1418171909124852, guid: 183edd93f55f20642a6a8970cb945a4b, type: 2}
 --- !u!114 &114980788822359096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -87,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelStartDelay: 2
-  turnDelay: 0.1
+  turnDelay: 1
   boardScript: {fileID: 0}
   playerFoodPoints: 100
   playerHealth: 50

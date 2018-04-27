@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour {
 
     public float turnDelay = 0.1f;
     public static GameManager instance = null;
-    public BoardManager boardScript;
+    public BoardCreator boardScript;
     public int playerFoodPoints = 100;
     public int playerHealth = 50;
     [HideInInspector] public bool playersTurn = true;
@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour {
 
         DontDestroyOnLoad(gameObject);
         enemies = new List<Enemy>();
-        boardScript = GetComponent<BoardManager>();
+        boardScript = GetComponent<BoardCreator>();
         //InitGame();
     }
 
@@ -56,12 +56,12 @@ public class GameManager : MonoBehaviour {
 
         levelImage = GameObject.Find("LevelImage");
         levelText = GameObject.Find("LevelText").GetComponent<Text>();
-        levelText.text = "Day " + level;
+        levelText.text = "Level " + level;
         levelImage.SetActive(true);
         Invoke("HideLevelImage" , levelStartDelay);
 
         enemies.Clear();
-        //boardScript.SetupScene(level);
+        boardScript.SetupScene(level);
     }
     
     private void HideLevelImage()
@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour {
 
     public void GameOver()
     {
-        levelText.text = "After " + level + " days, you starved.";
+        levelText.text = "After " + level + " floors, you starved.";
         levelImage.SetActive(true);
         enabled = false;
     }
@@ -88,6 +88,11 @@ public class GameManager : MonoBehaviour {
     public void AddEnemiesToList(Enemy script)
     {
         enemies.Add(script);
+    }
+
+    public void RemoveEnemyFromList(Enemy script)
+    {
+        enemies.Remove(script);
     }
 
     IEnumerator MoveEnemies()

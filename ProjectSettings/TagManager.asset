@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Apple
-  - Potion
+  - Steak
+  - Cheese
+  - Exit
+  - Enemy
   layers:
   - Default
   - TransparentFX

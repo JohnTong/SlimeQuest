@@ -32,6 +32,7 @@ public class Player : MovingObject {
         food = GameManager.instance.playerFoodPoints;
         health = GameManager.instance.playerHealth;
         foodText.text = "Food: " + food;
+        healthText.text = "Health: " + health;
         base.Start();
 	}
 
@@ -47,11 +48,11 @@ public class Player : MovingObject {
         base.AttemptMove <T> (xDir , yDir);
         RaycastHit2D hit;
         if (Move(xDir , yDir , out hit))
-            SoundManager.instance.RandomizeSfx(moveSound1 , moveSound2);
+            //SoundManager.instance.RandomizeSfx(moveSound1 , moveSound2);
 
         CheckIfGameOver();
 
-        //GameManager.instance.playersTurn = false;
+        GameManager.instance.playersTurn = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -60,13 +61,14 @@ public class Player : MovingObject {
             Invoke("Restart" , restartLevelDelay);
             enabled = false;
         }
-        else if(collision.tag == "Food") {
+        else if(collision.tag == "Apple") {
             food += pointsPerFood;
             foodText.text = "+" + pointsPerFood + " Food: " + food;
-            SoundManager.instance.RandomizeSfx(eatSound1 , eatSound2);
+            //SoundManager.instance.RandomizeSfx(eatSound1 , eatSound2);
             collision.gameObject.SetActive(false);
         }
         else if(collision.tag == "Potion") {
+            Debug.Log("I walked over a potion.");
             health += pointsPerPotion;
             healthText.text = "+" + pointsPerPotion + " Food: " + food;
             SoundManager.instance.RandomizeSfx(drinkSound1 , drinkSound2);
@@ -74,6 +76,7 @@ public class Player : MovingObject {
         }
 
     }
+
     protected override void OnCantMove <T> (T component)
     {
         Wall hitWall = component as Wall;

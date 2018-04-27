@@ -117,6 +117,94 @@ TextureImporter:
     21300220: Slime_Quest_Sprite_Sheet_110
     21300222: Slime_Quest_Sprite_Sheet_111
     21300224: Slime_Quest_Sprite_Sheet_112
+    21300226: Slime_Quest_Sprite_Sheet_5
+    21300228: Slime_Quest_Sprite_Sheet_6
+    21300230: Slime_Quest_Sprite_Sheet_7
+    21300232: Slime_Quest_Sprite_Sheet_8
+    21300234: Slime_Quest_Sprite_Sheet_9
+    21300236: Slime_Quest_Sprite_Sheet_10
+    21300238: Slime_Quest_Sprite_Sheet_11
+    21300240: Slime_Quest_Sprite_Sheet_12
+    21300242: Slime_Quest_Sprite_Sheet_13
+    21300244: Slime_Quest_Sprite_Sheet_14
+    21300246: Slime_Quest_Sprite_Sheet_15
+    21300248: Slime_Quest_Sprite_Sheet_16
+    21300250: Slime_Quest_Sprite_Sheet_17
+    21300252: Slime_Quest_Sprite_Sheet_18
+    21300254: Slime_Quest_Sprite_Sheet_19
+    21300256: Slime_Quest_Sprite_Sheet_20
+    21300258: Slime_Quest_Sprite_Sheet_21
+    21300260: Slime_Quest_Sprite_Sheet_22
+    21300262: Slime_Quest_Sprite_Sheet_23
+    21300264: Slime_Quest_Sprite_Sheet_24
+    21300266: Slime_Quest_Sprite_Sheet_25
+    21300268: Slime_Quest_Sprite_Sheet_26
+    21300270: Slime_Quest_Sprite_Sheet_27
+    21300272: Slime_Quest_Sprite_Sheet_28
+    21300274: Slime_Quest_Sprite_Sheet_29
+    21300276: Slime_Quest_Sprite_Sheet_30
+    21300278: Slime_Quest_Sprite_Sheet_31
+    21300280: Slime_Quest_Sprite_Sheet_32
+    21300282: Slime_Quest_Sprite_Sheet_33
+    21300284: Slime_Quest_Sprite_Sheet_34
+    21300286: Slime_Quest_Sprite_Sheet_35
+    21300288: Slime_Quest_Sprite_Sheet_36
+    21300290: Slime_Quest_Sprite_Sheet_37
+    21300292: Slime_Quest_Sprite_Sheet_38
+    21300294: Slime_Quest_Sprite_Sheet_39
+    21300296: Slime_Quest_Sprite_Sheet_40
+    21300298: Slime_Quest_Sprite_Sheet_41
+    21300300: Slime_Quest_Sprite_Sheet_42
+    21300302: Slime_Quest_Sprite_Sheet_43
+    21300304: Slime_Quest_Sprite_Sheet_44
+    21300306: Slime_Quest_Sprite_Sheet_45
+    21300308: Slime_Quest_Sprite_Sheet_46
+    21300310: Slime_Quest_Sprite_Sheet_47
+    21300312: Slime_Quest_Sprite_Sheet_48
+    21300314: Slime_Quest_Sprite_Sheet_49
+    21300316: Slime_Quest_Sprite_Sheet_50
+    21300318: Slime_Quest_Sprite_Sheet_51
+    21300320: Slime_Quest_Sprite_Sheet_52
+    21300322: Slime_Quest_Sprite_Sheet_53
+    21300324: Slime_Quest_Sprite_Sheet_54
+    21300326: Slime_Quest_Sprite_Sheet_55
+    21300328: Slime_Quest_Sprite_Sheet_56
+    21300330: Slime_Quest_Sprite_Sheet_57
+    21300332: Slime_Quest_Sprite_Sheet_58
+    21300334: Slime_Quest_Sprite_Sheet_59
+    21300336: Slime_Quest_Sprite_Sheet_60
+    21300338: Slime_Quest_Sprite_Sheet_61
+    21300340: Slime_Quest_Sprite_Sheet_62
+    21300342: Slime_Quest_Sprite_Sheet_63
+    21300344: Slime_Quest_Sprite_Sheet_64
+    21300346: Slime_Quest_Sprite_Sheet_65
+    21300348: Slime_Quest_Sprite_Sheet_66
+    21300350: Slime_Quest_Sprite_Sheet_67
+    21300352: Slime_Quest_Sprite_Sheet_68
+    21300354: Slime_Quest_Sprite_Sheet_69
+    21300356: Slime_Quest_Sprite_Sheet_70
+    21300358: Slime_Quest_Sprite_Sheet_71
+    21300360: Slime_Quest_Sprite_Sheet_72
+    21300362: Slime_Quest_Sprite_Sheet_73
+    21300364: Slime_Quest_Sprite_Sheet_74
+    21300366: Slime_Quest_Sprite_Sheet_75
+    21300368: Slime_Quest_Sprite_Sheet_76
+    21300370: Slime_Quest_Sprite_Sheet_77
+    21300372: Slime_Quest_Sprite_Sheet_78
+    21300374: Slime_Quest_Sprite_Sheet_79
+    21300376: Slime_Quest_Sprite_Sheet_80
+    21300378: Slime_Quest_Sprite_Sheet_81
+    21300380: Slime_Quest_Sprite_Sheet_82
+    21300382: Slime_Quest_Sprite_Sheet_93
+    21300384: Slime_Quest_Sprite_Sheet_94
+    21300386: Slime_Quest_Sprite_Sheet_95
+    21300388: Slime_Quest_Sprite_Sheet_96
+    21300390: Slime_Quest_Sprite_Sheet_97
+    21300392: Slime_Quest_Sprite_Sheet_98
+    21300394: Slime_Quest_Sprite_Sheet_99
+    21300396: Slime_Quest_Sprite_Sheet_100
+    21300398: Slime_Quest_Sprite_Sheet_101
+    21300400: Slime_Quest_Sprite_Sheet_102
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -155,11 +243,11 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -211,7 +299,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,7 +313,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,7 +327,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,7 +341,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,13 +355,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potion1
+      name: Slime_Quest_Sprite_Sheet_5
       rect:
         serializedVersion: 2
         x: 160
@@ -281,13 +369,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potion2
+      name: Slime_Quest_Sprite_Sheet_6
       rect:
         serializedVersion: 2
         x: 192
@@ -295,27 +383,27 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potion3
+      name: Slime_Quest_Sprite_Sheet_7
       rect:
         serializedVersion: 2
-        x: 223
+        x: 224
         y: 480
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potion4
+      name: Slime_Quest_Sprite_Sheet_8
       rect:
         serializedVersion: 2
         x: 256
@@ -323,13 +411,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Apple1
+      name: Slime_Quest_Sprite_Sheet_9
       rect:
         serializedVersion: 2
         x: 288
@@ -337,13 +425,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Apple2
+      name: Slime_Quest_Sprite_Sheet_10
       rect:
         serializedVersion: 2
         x: 320
@@ -351,13 +439,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Apple3
+      name: Slime_Quest_Sprite_Sheet_11
       rect:
         serializedVersion: 2
         x: 352
@@ -365,13 +453,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Apple4
+      name: Slime_Quest_Sprite_Sheet_12
       rect:
         serializedVersion: 2
         x: 384
@@ -379,13 +467,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertIdle1
+      name: Slime_Quest_Sprite_Sheet_13
       rect:
         serializedVersion: 2
         x: 0
@@ -393,41 +481,41 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertIdle2
+      name: Slime_Quest_Sprite_Sheet_14
       rect:
         serializedVersion: 2
-        x: 31
+        x: 32
         y: 448
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertIdle3
+      name: Slime_Quest_Sprite_Sheet_15
       rect:
         serializedVersion: 2
         x: 64
-        y: 449
+        y: 448
         width: 32
-        height: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertIdle4
+      name: Slime_Quest_Sprite_Sheet_16
       rect:
         serializedVersion: 2
         x: 96
@@ -435,13 +523,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertIdle5
+      name: Slime_Quest_Sprite_Sheet_17
       rect:
         serializedVersion: 2
         x: 128
@@ -449,13 +537,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertIdle6
+      name: Slime_Quest_Sprite_Sheet_18
       rect:
         serializedVersion: 2
         x: 160
@@ -463,13 +551,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertIdle7
+      name: Slime_Quest_Sprite_Sheet_19
       rect:
         serializedVersion: 2
         x: 192
@@ -477,13 +565,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertIdle8
+      name: Slime_Quest_Sprite_Sheet_20
       rect:
         serializedVersion: 2
         x: 224
@@ -491,13 +579,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertIdle9
+      name: Slime_Quest_Sprite_Sheet_21
       rect:
         serializedVersion: 2
         x: 256
@@ -505,13 +593,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertIdle10
+      name: Slime_Quest_Sprite_Sheet_22
       rect:
         serializedVersion: 2
         x: 288
@@ -519,13 +607,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertMove1
+      name: Slime_Quest_Sprite_Sheet_23
       rect:
         serializedVersion: 2
         x: 0
@@ -533,13 +621,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertMove2
+      name: Slime_Quest_Sprite_Sheet_24
       rect:
         serializedVersion: 2
         x: 32
@@ -547,13 +635,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertMove3
+      name: Slime_Quest_Sprite_Sheet_25
       rect:
         serializedVersion: 2
         x: 64
@@ -561,41 +649,41 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertMove4
+      name: Slime_Quest_Sprite_Sheet_26
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 416
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertMove5
+      name: Slime_Quest_Sprite_Sheet_27
       rect:
         serializedVersion: 2
-        x: 127
+        x: 128
         y: 416
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertMove6
+      name: Slime_Quest_Sprite_Sheet_28
       rect:
         serializedVersion: 2
         x: 160
@@ -603,13 +691,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertMove7
+      name: Slime_Quest_Sprite_Sheet_29
       rect:
         serializedVersion: 2
         x: 192
@@ -617,13 +705,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertMove8
+      name: Slime_Quest_Sprite_Sheet_30
       rect:
         serializedVersion: 2
         x: 224
@@ -631,13 +719,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertMove9
+      name: Slime_Quest_Sprite_Sheet_31
       rect:
         serializedVersion: 2
         x: 256
@@ -645,13 +733,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertMove10
+      name: Slime_Quest_Sprite_Sheet_32
       rect:
         serializedVersion: 2
         x: 288
@@ -659,13 +747,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertJump1
+      name: Slime_Quest_Sprite_Sheet_33
       rect:
         serializedVersion: 2
         x: 0
@@ -673,13 +761,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertJump2
+      name: Slime_Quest_Sprite_Sheet_34
       rect:
         serializedVersion: 2
         x: 32
@@ -687,13 +775,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertJump3
+      name: Slime_Quest_Sprite_Sheet_35
       rect:
         serializedVersion: 2
         x: 64
@@ -701,27 +789,27 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertJump4
+      name: Slime_Quest_Sprite_Sheet_36
       rect:
         serializedVersion: 2
-        x: 95
-        y: 383
+        x: 96
+        y: 384
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertJump5
+      name: Slime_Quest_Sprite_Sheet_37
       rect:
         serializedVersion: 2
         x: 128
@@ -729,13 +817,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertJump6
+      name: Slime_Quest_Sprite_Sheet_38
       rect:
         serializedVersion: 2
         x: 160
@@ -743,41 +831,41 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertJump7
+      name: Slime_Quest_Sprite_Sheet_39
       rect:
         serializedVersion: 2
-        x: 191
+        x: 192
         y: 384
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertJump8
+      name: Slime_Quest_Sprite_Sheet_40
       rect:
         serializedVersion: 2
-        x: 225
+        x: 224
         y: 384
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertJump9
+      name: Slime_Quest_Sprite_Sheet_41
       rect:
         serializedVersion: 2
         x: 256
@@ -785,13 +873,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertJump10
+      name: Slime_Quest_Sprite_Sheet_42
       rect:
         serializedVersion: 2
         x: 288
@@ -799,13 +887,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertAttack1
+      name: Slime_Quest_Sprite_Sheet_43
       rect:
         serializedVersion: 2
         x: 0
@@ -813,13 +901,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertAttack2
+      name: Slime_Quest_Sprite_Sheet_44
       rect:
         serializedVersion: 2
         x: 32
@@ -827,13 +915,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertAttack3
+      name: Slime_Quest_Sprite_Sheet_45
       rect:
         serializedVersion: 2
         x: 64
@@ -841,13 +929,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertAttack4
+      name: Slime_Quest_Sprite_Sheet_46
       rect:
         serializedVersion: 2
         x: 96
@@ -855,13 +943,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertAttack5
+      name: Slime_Quest_Sprite_Sheet_47
       rect:
         serializedVersion: 2
         x: 128
@@ -869,13 +957,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertAttack6
+      name: Slime_Quest_Sprite_Sheet_48
       rect:
         serializedVersion: 2
         x: 160
@@ -883,13 +971,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertAttack7
+      name: Slime_Quest_Sprite_Sheet_49
       rect:
         serializedVersion: 2
         x: 192
@@ -897,13 +985,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertAttack8
+      name: Slime_Quest_Sprite_Sheet_50
       rect:
         serializedVersion: 2
         x: 224
@@ -911,27 +999,27 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertAttack9
+      name: Slime_Quest_Sprite_Sheet_51
       rect:
         serializedVersion: 2
-        x: 255
+        x: 256
         y: 352
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertAttack10
+      name: Slime_Quest_Sprite_Sheet_52
       rect:
         serializedVersion: 2
         x: 288
@@ -939,13 +1027,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertSplat1
+      name: Slime_Quest_Sprite_Sheet_53
       rect:
         serializedVersion: 2
         x: 0
@@ -953,13 +1041,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertSplat2
+      name: Slime_Quest_Sprite_Sheet_54
       rect:
         serializedVersion: 2
         x: 32
@@ -967,13 +1055,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertSplat3
+      name: Slime_Quest_Sprite_Sheet_55
       rect:
         serializedVersion: 2
         x: 64
@@ -981,13 +1069,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertSplat4
+      name: Slime_Quest_Sprite_Sheet_56
       rect:
         serializedVersion: 2
         x: 96
@@ -995,13 +1083,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertSplat5
+      name: Slime_Quest_Sprite_Sheet_57
       rect:
         serializedVersion: 2
         x: 128
@@ -1009,13 +1097,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertSplat6
+      name: Slime_Quest_Sprite_Sheet_58
       rect:
         serializedVersion: 2
         x: 160
@@ -1023,13 +1111,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertSplat7
+      name: Slime_Quest_Sprite_Sheet_59
       rect:
         serializedVersion: 2
         x: 192
@@ -1037,27 +1125,27 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertSplat8
+      name: Slime_Quest_Sprite_Sheet_60
       rect:
         serializedVersion: 2
-        x: 223
+        x: 224
         y: 320
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertSplat9
+      name: Slime_Quest_Sprite_Sheet_61
       rect:
         serializedVersion: 2
         x: 256
@@ -1065,13 +1153,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: GoobertSplat10
+      name: Slime_Quest_Sprite_Sheet_62
       rect:
         serializedVersion: 2
         x: 288
@@ -1079,13 +1167,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertIdle1
+      name: Slime_Quest_Sprite_Sheet_63
       rect:
         serializedVersion: 2
         x: 0
@@ -1093,69 +1181,69 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertIdle2
+      name: Slime_Quest_Sprite_Sheet_64
       rect:
         serializedVersion: 2
         x: 32
-        y: 287
+        y: 288
         width: 32
-        height: 33
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertIdle3
+      name: Slime_Quest_Sprite_Sheet_65
       rect:
         serializedVersion: 2
         x: 64
-        y: 287
+        y: 288
         width: 32
-        height: 33
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertIdle4
+      name: Slime_Quest_Sprite_Sheet_66
       rect:
         serializedVersion: 2
-        x: 95
-        y: 287
+        x: 96
+        y: 288
         width: 32
-        height: 33
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertIdle5
+      name: Slime_Quest_Sprite_Sheet_67
       rect:
         serializedVersion: 2
         x: 128
-        y: 287
+        y: 288
         width: 32
-        height: 33
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertIdle6
+      name: Slime_Quest_Sprite_Sheet_68
       rect:
         serializedVersion: 2
         x: 160
@@ -1163,27 +1251,27 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertIdle7
+      name: Slime_Quest_Sprite_Sheet_69
       rect:
         serializedVersion: 2
-        x: 191
-        y: 287
+        x: 192
+        y: 288
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertIdle8
+      name: Slime_Quest_Sprite_Sheet_70
       rect:
         serializedVersion: 2
         x: 224
@@ -1191,13 +1279,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertIdle9
+      name: Slime_Quest_Sprite_Sheet_71
       rect:
         serializedVersion: 2
         x: 256
@@ -1205,13 +1293,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertIdle10
+      name: Slime_Quest_Sprite_Sheet_72
       rect:
         serializedVersion: 2
         x: 288
@@ -1219,13 +1307,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertMove1
+      name: Slime_Quest_Sprite_Sheet_73
       rect:
         serializedVersion: 2
         x: 0
@@ -1233,97 +1321,97 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertMove2
+      name: Slime_Quest_Sprite_Sheet_74
       rect:
         serializedVersion: 2
         x: 32
         y: 256
         width: 32
-        height: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertMove3
+      name: Slime_Quest_Sprite_Sheet_75
       rect:
         serializedVersion: 2
-        x: 63
-        y: 255
+        x: 64
+        y: 256
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertMove4
+      name: Slime_Quest_Sprite_Sheet_76
       rect:
         serializedVersion: 2
         x: 96
         y: 256
         width: 32
-        height: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertMove5
+      name: Slime_Quest_Sprite_Sheet_77
       rect:
         serializedVersion: 2
         x: 128
-        y: 255
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: SuperGoobertMove6
-      rect:
-        serializedVersion: 2
-        x: 159
         y: 256
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertMove7
+      name: Slime_Quest_Sprite_Sheet_78
       rect:
         serializedVersion: 2
-        x: 191
+        x: 160
         y: 256
         width: 32
-        height: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertMove8
+      name: Slime_Quest_Sprite_Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slime_Quest_Sprite_Sheet_80
       rect:
         serializedVersion: 2
         x: 224
@@ -1331,13 +1419,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertMove9
+      name: Slime_Quest_Sprite_Sheet_81
       rect:
         serializedVersion: 2
         x: 256
@@ -1345,13 +1433,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertMove10
+      name: Slime_Quest_Sprite_Sheet_82
       rect:
         serializedVersion: 2
         x: 288
@@ -1359,7 +1447,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1373,7 +1461,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1383,11 +1471,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 223
+        y: 224
         width: 32
-        height: 33
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1401,7 +1489,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1415,7 +1503,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1429,7 +1517,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1443,7 +1531,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1457,7 +1545,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1471,7 +1559,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1485,7 +1573,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1499,13 +1587,13 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertAttack1
+      name: Slime_Quest_Sprite_Sheet_93
       rect:
         serializedVersion: 2
         x: 0
@@ -1513,41 +1601,41 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertAttack2
+      name: Slime_Quest_Sprite_Sheet_94
       rect:
         serializedVersion: 2
         x: 32
-        y: 191
+        y: 192
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertAttack3
+      name: Slime_Quest_Sprite_Sheet_95
       rect:
         serializedVersion: 2
         x: 64
-        y: 191
+        y: 192
         width: 32
-        height: 33
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertAttack4
+      name: Slime_Quest_Sprite_Sheet_96
       rect:
         serializedVersion: 2
         x: 96
@@ -1555,41 +1643,41 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertAttack5
+      name: Slime_Quest_Sprite_Sheet_97
       rect:
         serializedVersion: 2
-        x: 127
+        x: 128
         y: 192
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertAttack6
+      name: Slime_Quest_Sprite_Sheet_98
       rect:
         serializedVersion: 2
         x: 160
-        y: 193
+        y: 192
         width: 32
-        height: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertAttack7
+      name: Slime_Quest_Sprite_Sheet_99
       rect:
         serializedVersion: 2
         x: 192
@@ -1597,27 +1685,27 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertAttack8
+      name: Slime_Quest_Sprite_Sheet_100
       rect:
         serializedVersion: 2
-        x: 223
+        x: 224
         y: 192
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertAttack9
+      name: Slime_Quest_Sprite_Sheet_101
       rect:
         serializedVersion: 2
         x: 256
@@ -1625,21 +1713,21 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: SuperGoobertAttack10
+      name: Slime_Quest_Sprite_Sheet_102
       rect:
         serializedVersion: 2
-        x: 287
+        x: 288
         y: 192
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1653,7 +1741,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1665,9 +1753,9 @@ TextureImporter:
         x: 32
         y: 160
         width: 32
-        height: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1681,7 +1769,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1695,7 +1783,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1709,7 +1797,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1723,7 +1811,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1737,7 +1825,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1751,7 +1839,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1765,7 +1853,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1779,7 +1867,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
